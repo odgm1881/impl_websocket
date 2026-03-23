@@ -1,5 +1,6 @@
 import asyncio
 
+import socketserver
 from base import Connection, WebSocketState
 from utils.frame import _parser_frame
 from utils.http import _get_request, _handle_response
